@@ -1,4 +1,10 @@
 # Midje related snippets
+snippet facts
+	(facts "${1:probably a namespace}"
+	  (fact "${2:probably a function}"
+		${3})
+	  )
+
 snippet fact
 	(fact "${1:checking something}"
 	  ${2})
