@@ -4,4 +4,8 @@ endif
 
 " A pattern that can be used to align the dependencies in a Lein project.clj
 " file so that the names and version numbers are in columns.
-AddTabularPattern! clojure_deps /"/l1l0l0l0
+AddTabularPattern! lein_deps /"/l1l0l0l0
+
+" A pattern to align Midje checkers on their '=>'
+AddTabularPattern! midje_checker /=>
+
